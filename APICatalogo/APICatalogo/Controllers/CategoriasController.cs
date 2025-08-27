@@ -93,12 +93,12 @@ namespace APICatalogo.Controllers
         }
 
         [HttpGet("CategoriasEProdutosJuntos")]
-        public ActionResult<IEnumerable<Categoria>> BuscarCategoriasEProdutos(int id)
+        public async Task<ActionResult<IEnumerable<Categoria>>> BuscarCategoriasEProdutos(int id)
         {
             try
             {
                 // throw new DataMisalignedException(); // Simulação de exceção
-                return _context.Categorias.Include(p => p.Produtos).AsNoTracking().ToList(); // Dados relacionados com método Include()
+                return await _context.Categorias.Include(p => p.Produtos).AsNoTracking().ToListAsync(); // Dados relacionados com método Include()
             } catch (Exception){
                 return StatusCode(StatusCodes.Status500InternalServerError,
                     "Ocorre um problema com a sua busca.");

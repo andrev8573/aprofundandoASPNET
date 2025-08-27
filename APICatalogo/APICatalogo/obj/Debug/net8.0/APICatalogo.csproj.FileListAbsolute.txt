@@ -106,3 +106,4 @@ C:\Users\felip\OneDrive\Desktop\web-development-projects\backend\c#-asp.net.core
 C:\Users\felip\OneDrive\Desktop\web-development-projects\backend\c#-asp.net.core\APICatalogo\APICatalogo\bin\Debug\net8.0\Npgsql.dll
 C:\Users\felip\OneDrive\Desktop\web-development-projects\backend\c#-asp.net.core\APICatalogo\APICatalogo\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
 C:\Users\felip\OneDrive\Desktop\web-development-projects\backend\c#-asp.net.core\APICatalogo\APICatalogo\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\felip\OneDrive\Desktop\web-development-projects\backend\c#-asp.net.core\APICatalogo\APICatalogo\obj\Debug\net8.0\APICatalogo.sourcelink.json
