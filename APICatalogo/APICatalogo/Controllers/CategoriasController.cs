@@ -93,7 +93,7 @@ namespace APICatalogo.Controllers
         }
 
         [HttpGet("CategoriasEProdutosJuntos")]
-        public async Task<ActionResult<IEnumerable<Categoria>>> BuscarCategoriasEProdutos(int id)
+        public async Task<ActionResult<IEnumerable<Categoria>>> BuscarCategoriasEProdutos([FromQuery]int id) // Assincronismo e query string
         {
             try
             {
