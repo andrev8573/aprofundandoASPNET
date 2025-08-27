@@ -444,6 +444,12 @@
             "type": "integer",
             "format": "int32"
           },
+          "ean13": {
+            "pattern": "^\\d{13}$",
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
           "nome": {
             "maxLength": 80,
             "minLength": 0,
