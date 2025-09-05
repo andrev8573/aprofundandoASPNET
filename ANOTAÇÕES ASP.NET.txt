@@ -1,0 +1,10 @@
+ANOTAÇÕES ASP.NET 
+
+Validação personalizada I
+É possível criar uma propriedade de validação em uma classe que herda de ValidationAttribute. Se passa a propriedade analisada como parâmetro e a classe em si e implementa-se a lógica do negócio.
+* tem que terminar com "Attribute"
+* assim, foi criada a anotation [PrimeiraLetraCategoria] que pode ser posta em o model
+
+Validação personalizada II
+É possível validar direto no model com a classe IEnumerable, valendo para todos os atributos daquela classe mas não podendo ser compartilhada.
+* yeld organiza as saídas.

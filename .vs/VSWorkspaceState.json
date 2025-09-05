@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\APICatalogo",
+    "\\APICatalogo\\APICatalogo",
+    "\\APICatalogo\\APICatalogo\\Controllers",
+    "\\APICatalogo\\APICatalogo\\Domain",
+    "\\APICatalogo\\APICatalogo\\Migrations",
+    "\\APICatalogo\\APICatalogo\\Properties",
+    "\\APICatalogo\\APICatalogo\\Properties\\Context",
+    "\\APICatalogo\\APICatalogo\\Validations"
+  ],
+  "SelectedNode": "\\APICatalogo\\APICatalogo\\Controllers\\CategoriasController.cs",
+  "PreviewInSolutionExplorer": false
+}
