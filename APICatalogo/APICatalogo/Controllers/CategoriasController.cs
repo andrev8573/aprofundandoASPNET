@@ -10,11 +10,22 @@ namespace APICatalogo.Controllers
     [ApiController]
     public class CategoriasController : ControllerBase
     {
-        private readonly AppDbContext _context; 
+        private readonly AppDbContext _context;
+        private readonly IConfiguration _configuration; // Leitura de configurações (equivalente a builder.Configuration no Program.cs)
 
-        public CategoriasController(AppDbContext context) 
+        /*
+        [HttpGet("Ler arquivo de configurações")]
+        public string retornoConfiguracoes()
+        {
+            string arquitetura = _configuration["informacoes:arquiteturaAdotada"];
+            return arquitetura;
+        }
+        */
+
+        public CategoriasController(AppDbContext context, IConfiguration configuration)
         {
             _context = context;
+            _configuration = configuration;
         }
 
         [HttpGet]
